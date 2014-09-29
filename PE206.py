@@ -1,0 +1,43 @@
+from math import sqrt
+print(sqrt(19293742546274889))
+
+
+#for i in range(100000000,140000000):
+  #s=str(i*i)
+  #fl=1
+  #for j in range(0,17,+2):
+    #if(int(s[j])!=(j+2)//2):
+      #fl=0
+      #break
+  #if(fl):
+    #print(i*i)
+    #break
+
+
+#from math import sqrt
+#def issqr(a):
+  #s=''
+  #for x in a:
+    #s+=str(x)
+  #k=int(s)
+  ##print k
+  #if((int(sqrt(k)))*(int(sqrt(k)))==k):
+    #return 1
+  #return 0	
+
+#k=list()
+#def permute(s,i,n):
+  #b=[1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9]
+  #if(i>=n):
+    #if(int(s[7])%2==0):
+      #for k in range(8):
+	#b[2*k+1]=int(s[k])
+	#if(issqr(b)==1):
+	  #print (b)
+	  #return 0                        
+  #else:
+    #for j in range(i,n):
+      #s[i],s[j]=s[j],s[i]
+      #permute(s,i+1,n)
+      #s[i],s[j]=s[j],s[i]
+#permute(['0','1','2','3','4','5','6','7','8','9'],0,10)
